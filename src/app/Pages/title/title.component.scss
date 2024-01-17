@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap");
+
+* {
+  // font-family: 'Kanit', sans-serif;
+  // font-size: 15px;
+  // color: rgb(33, 33, 201);
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  margin-top: 30px;
+  background: radial-gradient(at center, #565435 0%, #262623 0%, #313131 100%);
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+  color: white;
+
+  button {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #8e8e8e;
+    border-radius: 5px;
+  }
+}
+
+.navbar-text a,
+.navbar-text span {
+  margin-right: 5px; /* Adjust the spacing between elements as needed */
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.rotated-line {
+  display: inline-block;
+  width: 20px; /* Set the desired length of the rotated line */
+  border: none;
+  height: 2px; /* Set the thickness of the line */
+  background-color: black; /* Change the color as needed */
+  transform: rotate(90deg);
+  vertical-align: middle;
+  margin: 0 5px; /* Adjust the spacing between the line and the elements as needed */
+}
+
+.navbar-text a:hover {
+  text-decoration: underline;
+}
+
+p span a {
+  color: #8e8e8e;
+}
+
+p span a:hover {
+  text-decoration: underline;
+}
+
+.text-title {
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.text-title-lower {
+  margin-left: 3px;
+  margin-top: -5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.star-rating-group {
+  float: right;
+}
+
+.star-rating-text {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.star-rating {
+  color: yellow;
+}
+
+.content-right-you-rate::after {
+  background-color: aqua;
+}
+
+.text-you-rating {
+  border: none;
+  width: 100px;
+  background-color: transparent;
+  color: skyblue;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.text-you-rating:hover {
+  background-color: #333238;
+}
+
+.star-grade {
+  color: skyblue;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.text-rating-on,
+.text-you-rating-on {
+  font-weight: bold;
+  color: #8e8e8e;
+}
+
+.right-content div {
+  padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.movie {
+  display: flex;
+}
+
+.image-movie {
+  margin-top: 10px;
+  width: 260px;
+  height: 380px;
+}
+
+.iframe-movie {
+  margin: 10px;
+  width: 700px;
+  height: 380px;
+}
+
+.movie-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+  mat-icon,
+  span {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.movie-container mat-icon {
+  font-size: 30px;
+  width: 40px;
+  height: 30px;
+}
+
+.movie-video,
+.movie-PHOTOS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 185px;
+  margin-bottom: 10px;
+  background-color: rgba(53, 51, 50, 255);
+}
+
+.round-genreMovie {
+  border: 0.1rem solid rgb(126, 126, 126);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 3px;
+  box-sizing: border-box;
+  color: white;
+  margin-right: 2px;
+  background-color: transparent;
+}
+
+.round-genreMovie:hover {
+  background-color: #38373b;
+}
+
+.container-detail {
+  margin-top: 5px;
+  width: 800px;
+
+  span {
+    color: white;
+  }
+
+  hr {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+}
+
+.text-heading-head {
+  span {
+    color: white;
+  }
+
+  a {
+    color: rgb(78, 129, 196);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.text-heading {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.hr-heading {
+  width: 800px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.star-container {
+  color: white;
+}

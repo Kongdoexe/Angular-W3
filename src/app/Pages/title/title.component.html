@@ -1,0 +1,160 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<app-navbar></app-navbar>
+<div class="body">
+  <div class="container">
+    <div class="navbar-navbar-container">
+      <div>
+        <button mat-raised-button color="accent" routerLink="">Back</button>
+      </div>
+      <div class="navbar-text">
+        <a routerLink="#">Cast & crew</a> •
+        <a routerLink="#">User reviews</a> •
+        <a routerLink="#">Trivia</a> •
+        <a routerLink="#">FAQ</a>
+        <hr class="rotated-line">
+        <a routerLink="#">IMDbPro</a>
+        <hr class="rotated-line">
+        <button style="display: flex;">
+          <span class="material-symbols-outlined">action_key</span>
+          All topics
+        </button>
+        <hr class="rotated-line">
+        <mat-icon>share</mat-icon>
+      </div>
+    </div>
+
+    <div class="navbar-container">
+      <div>
+        <div>
+          <p class="text-title">{{ Movie.title }}</p>
+          <p class="text-title-lower">
+            <span
+              ><a routerLink="#">{{ Movie.year }}</a></span
+            >
+            •
+            <span
+              ><a routerLink="#">{{ Movie.Rate }}</a></span
+            >
+            • <span>{{ Movie.long }}</span>
+          </p>
+        </div>
+      </div>
+      <div class="right-content">
+        <div class="star-rating-group">
+          <div>
+            <span class="text-rating-on">IMDb RATING</span>
+          </div>
+            <span class="star-rating-text">
+              <mat-icon class="star-rating">star</mat-icon>{{ Movie.rating.toFixed(1) }}/10
+            </span>
+        </div>
+        <div>
+          <div>
+            <span class="text-you-rating-on">YOU RATING</span>
+          </div>
+          <a routerLink="#" class="content-right-you-rate">
+            <button class="text-you-rating">
+              <mat-icon class="star-grade">grade</mat-icon> Rate
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie">
+      <img src="{{ Movie.image }}" class="image-movie" />
+      <iframe [src]="trustedUrl" frameborder="0" class="iframe-movie"></iframe>
+      <div class="movie-container">
+        <div class="movie-video">
+          <mat-icon>video_library</mat-icon>
+          <span>{{ this.Videos }} VIDEOS</span>
+        </div>
+
+        <div class="movie-PHOTOS">
+          <mat-icon>photo_library</mat-icon>
+          <span>{{ this.Photos }} PHOTOS</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <ng-container *ngFor="let genre of Movie.movie_genre; let Lastgen = last">
+        <button class="round-genreMovie">{{ genre }}</button
+        >{{ !Lastgen ? " " : " " }}
+      </ng-container>
+    </div>
+
+    <div class="container-detail">
+      <span>{{ Movie.detail }}</span>
+      <hr />
+    </div>
+
+    <div class="text-heading-head">
+      <div *ngIf="Director.length > 0; else noDirectors" style="margin-top: 10px; margin-bottom: 10px;">
+        <ng-container *ngIf="Director.length > 1; else singularDirector">
+          <span class="text-heading">Directors </span>
+        </ng-container>
+        <ng-template #singularDirector>
+          <span class="text-heading">Director </span>
+        </ng-template>
+        <!-- Output Director -->
+        <ng-container *ngFor="let lm of Director; let lastCreator = last">
+          <a routerLink="#" (click)="sendParamsActor(lm.id , lm.video)">{{ lm.name }}</a
+          ><span class="star-container">{{ !lastCreator ? " • " : "" }}</span>
+        </ng-container>
+        <hr class="hr-heading" />
+      </div>
+      <ng-template #noDirectors> </ng-template>
+
+      <!-- Writers -->
+      <div *ngIf="Writers.length > 0; else noWriters" style="margin-top: 10px; margin-bottom: 10px;">
+        <ng-container *ngIf="Writers.length > 1; else singularWriter">
+          <span class="text-heading">Writers </span>
+        </ng-container>
+        <ng-template #singularWriter>
+          <span class="text-heading">Writer </span>
+        </ng-template>
+        <!-- Output Writers -->
+        <ng-container *ngFor="let lm of Writers; let lastWriters = last">
+          <a routerLink="#" (click)="sendParamsActor(lm.id , lm.video)">{{ lm.name }}</a
+          ><span class="star-container">{{ !lastWriters ? " • " : "" }}</span>
+        </ng-container>
+        <hr class="hr-heading" />
+      </div>
+      <ng-template #noWriters> </ng-template>
+
+      <!-- Creators -->
+      <div *ngIf="Creators.length > 0; else noCreators" style="margin-top: 10px; margin-bottom: 10px;">
+        <ng-container *ngIf="Creators.length > 1; else singularCreator">
+          <span class="text-heading">Creators </span>
+        </ng-container>
+        <ng-template #singularCreator>
+          <span class="text-heading">Creator </span>
+        </ng-template>
+        <!-- Output Creators -->
+        <ng-container *ngFor="let lm of Creators; let lastCreators = last">
+          <a routerLink="#" (click)="sendParamsActor(lm.id , lm.video)">{{ lm.name }}</a
+          ><span class="star-container">{{ !lastCreators ? " • " : "" }}</span>
+        </ng-container>
+        <hr class="hr-heading" />
+      </div>
+      <ng-template #noCreators> </ng-template>
+
+      <!-- Stars -->
+      <div *ngIf="Stars.length > 0; else noStars" style="margin-top: 10px; margin-bottom: 10px;">
+        <ng-container *ngIf="Stars.length > 1; else singularStar">
+          <span class="text-heading">Stars </span>
+        </ng-container>
+        <ng-template #singularStar>
+          <span class="text-heading">Star </span>
+        </ng-template>
+        <!-- Output Stats -->
+        <ng-container *ngFor="let lm of Stars; let lastStars = last">
+          <a routerLink="#" (click)="sendParamsActor(lm.id , lm.video)">{{ lm.name }}</a><span class="star-container">{{ !lastStars ? " • " : "" }}</span>
+        </ng-container>
+        <hr class="hr-heading" />
+      </div>
+      <ng-template #noStars> </ng-template>
+    </div>
+  </div>
+</div>

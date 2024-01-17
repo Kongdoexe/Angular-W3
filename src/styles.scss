@@ -1,0 +1,21 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+$Angular-W3-primary: mat.define-palette(mat.$indigo-palette);
+$Angular-W3-accent: mat.define-palette(mat.$amber-palette, A200, A100, A400);
+
+$Angular-W3-warn: mat.define-palette(mat.$red-palette);
+
+$Angular-W3-theme: mat.define-light-theme((
+  color: (
+    primary: $Angular-W3-primary,
+    accent: $Angular-W3-accent,
+    warn: $Angular-W3-warn,
+  )
+));
+
+@include mat.all-component-themes($Angular-W3-theme);
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+

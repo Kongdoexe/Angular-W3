@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  margin-top: 30px;
+  background: radial-gradient(at center, #565435 0%, #262623 0%, #313131 100%);
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-container{
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+  color: white;
+
+  button {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #8e8e8e;
+    border-radius: 5px;
+  }
+}
+
+.navbar-text a,
+.navbar-text span {
+  margin-right: 5px; /* Adjust the spacing between elements as needed */
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.rotated-line {
+  display: inline-block;
+  width: 20px; /* Set the desired length of the rotated line */
+  border: none;
+  height: 2px; /* Set the thickness of the line */
+  background-color: black; /* Change the color as needed */
+  transform: rotate(90deg);
+  vertical-align: middle;
+  margin: 0 5px; /* Adjust the spacing between the line and the elements as needed */
+}
+
+.navbar-text a:hover {
+  text-decoration: underline;
+}
+
+.actor-name{
+  color: white;
+  font-size: 50px;
+}
+
+.actor-type{
+  color: #8e8e8e;
+}
+
+.colorLastActor{
+  color: white;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.movie-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+  mat-icon,
+  span {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.movie-container mat-icon {
+  font-size: 30px;
+  width: 40px;
+  height: 30px;
+}
+
+.image-movie {
+  margin-top: 10px;
+  width: 260px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.iframe-movie {
+  margin: 10px;
+  width: 700px;
+  height: 380px;
+}
+
+.movie-video , .movie-PHOTOS{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 185px;
+  margin-bottom: 10px;
+  background-color: rgba(53, 51, 50, 255);
+}
+
+.container-detail{
+  margin-top: 5px;
+  width: 800px;
+
+  span{
+    display: block;
+    max-height: 6em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+  }
+
+  hr{
+    margin-top: 10px;
+    color: #ffffff;
+  }
+}

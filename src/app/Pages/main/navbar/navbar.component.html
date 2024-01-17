@@ -1,0 +1,64 @@
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous"
+/>
+
+<mat-toolbar style="background-color: #1c1c1c" class="sticky-top">
+  <div class="container">
+    <div>
+      <button class="imdb" (click)="ToPageMain()" routerlink="">IMDb</button>
+
+      <div class="flex-container">
+        <button class="button-menu">
+          <mat-icon class="icon-menu">menu</mat-icon>
+          <span class="span-menu">Menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- กลาง -->
+    <div class="flex-container" style="margin-left: 30px;">
+      <div class="input-group">
+          <button mat-flat-button [matMenuTriggerFor]="menu" style="background-color: white;" class="rounded-left menufrom">
+            <span style="margin-right: 20px;">All </span>
+            <img src="../../../../assets/expand-button.png" style="height: 10px;">
+          </button>
+          <input type="text" class="form-control" placeholder="Search IMDb" [(ngModel)]="searchValue" style="width: 400px;"/>
+          <button mat-raised-button class="searchfrom" (click)="search()">
+            <mat-icon>search</mat-icon>
+          </button>
+      </div>
+
+      <mat-menu #menu="matMenu">
+        <div class="custom-menu">
+          <button mat-menu-item (click)="selectGroup('All')" ><mat-icon class="mat-18">search</mat-icon>All</button>
+          <button mat-menu-item (click)="selectGroup('Titles')"><mat-icon class="mat-18">theaters</mat-icon>Titles</button>
+          <button mat-menu-item (click)="selectGroup('TV_Episodes')"><mat-icon class="mat-18">tv</mat-icon>TV Episodes</button>
+          <button mat-menu-item (click)="selectGroup('Celebs')"><mat-icon class="mat-18">group</mat-icon>Celebs</button>
+          <button mat-menu-item (click)="selectGroup('Companies')"><mat-icon class="mat-18">view_compact</mat-icon>Companies</button>
+          <button mat-menu-item (click)="selectGroup('Keywords')"><mat-icon class="mat-18">label</mat-icon>Keywords</button>
+          <hr>
+          <button mat-menu-item><mat-icon class="mat-18"  (click)="selectGroup('Advanced Search')">find_in_page</mat-icon>Advanced Search</button>
+        </div>
+      </mat-menu>
+    </div>
+
+    <!-- ท้าย -->
+    <div class="flex-continer">
+      <span class="imdbp" style="font-family: 'Oswald', sans-serif; margin-left: 50px;" routerlink="">IMDb<span class="pro">Pro</span></span>
+      <hr class="imdb-line" />
+      <span class="imdbp" style="padding-left: 20px;"><mat-icon>bookmarkadd</mat-icon>Watchlist</span>
+      <span class="imdbp" style="padding-left: 20px;">Sign In</span>
+      <button mat-button [matMenuTriggerFor]="beforeMenu" style="padding-left: 30px;" class="imdbp">EN <img src="../../../../assets/expand-button.png" style="height: 10px;"></button>
+      <mat-menu #beforeMenu="matMenu" xPosition="before">
+        <div class="custom-menu-last">
+          <button mat-menu-item>EN</button>
+          <hr>
+          <button mat-menu-item>TH</button>
+        </div>
+      </mat-menu>
+    </div>
+  </div>
+</mat-toolbar>

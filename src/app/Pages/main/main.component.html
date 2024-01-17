@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="movie-container">
+    <hr>
+    <button routerLink=""><span class="movie">Top picks <mat-icon>arrow_forward_ios</mat-icon> </span></button>
+  </div>
+  <div class="card-container">
+    <div class="slider-container">
+      <a href="#" *ngIf="currentIndex >= 3">
+        <span class="material-symbols-outlined arrow left-arrow" (click)="prevSlide()" style="margin-left: -35px;">
+          chevron_left
+        </span>
+      </a>
+      <div class="left-section"></div>
+
+      <div *ngFor="let lm of Movies.slice(0 + currentIndex, itemsPerSlide + currentIndex)" class="slide" style="background-color: #1a1a1a;">
+        <a (click)="sendParamsTitle(lm.title_id , lm.trailer)" routerLink="#">
+          <img src="{{ lm.image }}" style="width: 190px; height: 270px" />
+        </a>
+        <div style="margin-left: 10px;">
+          <span style="display: flex; margin-bottom: 5px;color: white;">
+            <mat-icon style="margin-top: -2px; margin-right: 5px;">star</mat-icon>{{ lm.rating.toFixed(1) }}
+          </span>
+          <!-- <br /> -->
+          <span style="color: white;">{{ lm.title }}</span><br>
+          <button routerLink="#" class="Button-Watch">Watch now<mat-icon>open_in_new</mat-icon></button>
+          <div style="display: flex; flex-direction: row;">
+            <button class="Button-Trailer"><mat-icon>play_arrow</mat-icon> Trailer</button>
+            <mat-icon class="Button-Help">help</mat-icon>
+          </div>
+        </div>
+      </div>
+      <div class="right-section"></div>
+      <a href="#"><span class="material-symbols-outlined arrow right-arrow" (click)="nextSlide()" style="margin-right: -65px;">
+        chevron_right
+      </span></a>
+    </div>
+  </div>
+
+  <div class="movie-container">
+    <hr>
+    <button routerLink=""><span class="movie">Actor <mat-icon>arrow_forward_ios</mat-icon> </span></button>
+  </div>
+  <div class="card-container">
+    <div class="slider-container">
+      <a href="#" *ngIf="currentIndexActor >= 3">
+        <span class="material-symbols-outlined arrow left-arrow" (click)="prevSlideActor()" style="margin-left: -35px;">
+          chevron_left
+        </span>
+      </a>
+      <div class="left-section"></div>
+
+      <div *ngFor="let lm of Persons.slice(0 + currentIndexActor, 6 + currentIndexActor)" class="slide">
+        <a (click)="sendParamsActor(lm.id , lm.video)" routerLink="#">
+          <img src="{{ lm.image }}" class="rounded-image" />
+        </a>
+        <span class="Actor-name">{{lm.name}}</span>
+      </div>
+      <div class="right-section"></div>
+      <a href="#"><span class="material-symbols-outlined arrow right-arrow" (click)="nextSlideActor()" style="margin-right: -65px;">
+        chevron_right
+      </span></a>
+    </div>
+  </div>
+</div>
