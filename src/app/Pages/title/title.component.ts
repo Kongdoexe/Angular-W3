@@ -32,6 +32,7 @@ import { MatButtonModule } from '@angular/material/button';
 export class TitleComponent implements OnInit {
   Movie: any = {};
   Actor: Array<any> = [];
+  // Actor: any = [];
   MovieId = '';
   trailer = '';
   Videos: any = this.randomNumber(1, 99);

@@ -71,7 +71,7 @@ export class MainComponent {
 
   sendParamsActor(id: any, trailer: any){
     this.router.navigate(['actor', id],{
-      queryParams : { herf : trailer, Datafrom: "true"}
+      queryParams : { herf : trailer}
     })
   }
 }
