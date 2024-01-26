@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import MovieData from '../../../assets/Movie.json';
 import PersonData from '../../../assets/person.json';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CommonModule, NgClass, NgForOf , NgIf } from '@angular/common';
+import { CommonModule, NgForOf  } from '@angular/common';
 import { MatIconModule } from '@angular/material/icon';
-import { ActivatedRoute, Router, RouterLink, RouterModule } from '@angular/router';
-import { MatButton, MatButtonModule } from '@angular/material/button';
+import {  Router, RouterLink, RouterModule } from '@angular/router';
+import {  MatButtonModule } from '@angular/material/button';
+
 
 @Component({
   selector: 'app-main',
@@ -22,16 +23,16 @@ import { MatButton, MatButtonModule } from '@angular/material/button';
     CommonModule
   ],
 })
-export class MainComponent {
+export class MainComponent{
   Movies = MovieData;
   Persons = PersonData;
-  visibleMovies: any[] = this.Movies;
-  visiblePersons: any[] = this.Persons;
   currentIndex: number = 0;
   itemsPerSlide: number = 6;
   currentIndexActor: number = 0;
 
-  constructor(private activeatedRoute: ActivatedRoute, private router: Router) {}
+  currentYear: number = new Date().getFullYear();
+
+  constructor(private router: Router) {}
 
   ngDoCheck() {}
 

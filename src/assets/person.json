@@ -6,6 +6,11 @@
     "Role": ["Creators"],
     "type": ["Writer", "Producer", "Director"],
     "image": "https://ntvb.tmsimg.com/assets/assets/902939_v9_bc.jpg",
+    "birthday": {
+      "day": 15,
+      "month": "February",
+      "year": 1984
+    },
     "video": "2cGbavnN6B0",
     "detail": "Matt Duffer of The Duffer Brothers, born in Durham, February 15, 1984"
   },
@@ -16,6 +21,11 @@
     "Role": ["Creators"],
     "type": ["Writer", "Producer", "Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BNTZkZjI1OTMtOWNmZS00NTRlLWIzOGUtMmE1ODExMWEyOGYxXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+    "birthday": {
+      "day": 15,
+      "month": "February",
+      "year": 1984
+    },
     "video": "2cGbavnN6B0",
     "detail": "Ross Duffer is known for Stranger Things (2016), Wayward Pines (2015) and We All Fall Down (2005)."
   },
@@ -26,6 +36,11 @@
     "Role": ["Stars"],
     "type": ["Actress", "Producer", "Executive"],
     "image": "https://media.glamourmagazine.co.uk/photos/626c123bd9c995304913c7aa/1:1/w_1920,h_1920,c_limit/MILLIE%20BOBBY%20BROWN%20290422%20GettyImages-1181658863b.jpg",
+    "birthday": {
+      "day": 9,
+      "month": "February",
+      "year": 2004
+    },
     "video": "VZoMg_ab8-U",
     "detail": "Millie Bobby Brown (born 19 February 2004) is an English actress and model."
   },
@@ -36,6 +51,11 @@
     "Role": ["Stars"],
     "type": ["Actor", "Director", "Writer"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Finn_Wolfhard_by_Gage_Skidmore_2.jpg",
+    "birthday": {
+      "day": 23,
+      "month": "December",
+      "year": 2002
+    },
     "video": "83AGOGW2JSc",
     "detail": "A native of Vancouver, British Columbia, Actor Finn Wolfhard stars as Mike Wheeler in the critically acclaimed Netflix Original Series Stranger Things (2016)."
   },
@@ -46,6 +66,11 @@
     "Role": ["Stars"],
     "type": ["Actress", "Producer", "Director"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Winona_Ryder_2010_TIFF.jpg/800px-Winona_Ryder_2010_TIFF.jpg",
+    "birthday": {
+      "day": 29,
+      "month": "October",
+      "year": 1971
+    },
     "video": "G1GLyKUQnHI",
     "detail": "Winona Ryder was born Winona Laura Horowitz in Olmsted County, Minnesota, and was named after a nearby town, Winona, Minnesota."
   },
@@ -56,6 +81,11 @@
     "Role": ["Director"],
     "type": ["Director", "Writer", "Producer"],
     "image": "https://m.media-amazon.com/images/M/MV5BZTgzYTY2N2QtMzQ3OC00ZjEyLTkxZGUtMjg1MzUwOGEwZTUyXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+    "birthday": {
+      "day": 17,
+      "month": "September",
+      "year": 1970
+    },
     "video": "Rbtj277m5Ww",
     "detail": "William Brent Bell is known for Orphan: First Kill (2022), The Boy (2016) and The Devil Inside (2012)."
   },
@@ -66,6 +96,11 @@
     "Role": ["Writer"],
     "type": ["Writer","Script and Continuity Department"],
     "image": "https://i0.wp.com/writingstudio.co.za/wp-content/uploads/2016/02/William-Brent-Bell.jpg",
+    "birthday": {
+      "day": null,
+      "month": null,
+      "year": null
+    },
     "video": "7aCuj44rGS8",
     "detail": "Stacey Menear is known for The Boy (2016), Brahms: The Boy II (2020) and Mixtape (2021)."
   },
@@ -76,6 +111,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer","Soundtrack"],
     "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/497592_v9_bb.jpg",
+    "birthday": {
+      "day": 7,
+      "month": "January",
+      "year": 1982
+    },
     "video": "DZ_cY4b1OC0",
     "detail": "Lauren Cohan is a British-American actress and model, best known for her role as Maggie Greene on The Walking Dead (2010) and recurring roles on The Vampire Diaries (2009), Supernatural (2005), and Chuck (2007). After her film debut on Casanova (2005) as Sister Beatrice, she starred in the sequel to National Lampoon's Van Wilder (2002), Van Wilder: The Rise of Taj (2006), as Charlotte Higginson. Her next role was in the 2007 film, Float (2008). In February 2010, she was cast in Death Race 2 (2010), with Sean Bean and Danny Trejo, and also the supernatural-horror film The Boy (2016), where Lauren played the main character, Greta Evans. In 2016, Cohan also appeared as Martha Wayne in Batman v Superman: Dawn of Justice (2016)."
   },
@@ -86,6 +126,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Director","Soundtrack"],
     "image": "https://m.media-amazon.com/images/M/MV5BMjM0MDcwOTY1OF5BMl5BanBnXkFtZTgwOTcwNDQ0MTI@._V1_.jpg",
+    "birthday": {
+      "day": 9,
+      "month": "March",
+      "year": 1976
+    },
     "video": "aHEF2D8yMes",
     "detail": "Having graduated from Webber Douglas Academy of Dramatic Art, Rupert Evans started his career working mainly in television."
   },
@@ -96,6 +141,11 @@
     "Role": ["Stars"],
     "type": ["Actor"],
     "image": "https://media0033.elcinema.com/uploads/_315x420_218c57333fd18c310fe86dbd85a0678cb9ea43b5de18e94d5e5b79f97888d469.jpg",
+    "birthday": {
+      "day": 3,
+      "month": "September",
+      "year": 1983
+    },
     "video": "XGbB9UQ6r1g",
     "detail": "James Russell was born September 3, 1983 in Aberdeen Scotland. He is an American-Irish Actor best known for his role of Brahms Heelshire in The Boy (2016)."
   },
@@ -106,6 +156,11 @@
     "Role": ["Creator"],
     "type": ["Writer","Producer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BNjk0MTkxNzQwOF5BMl5BanBnXkFtZTcwODM5OTMwNA@@._V1_.jpg",
+    "birthday": {
+      "day": 28,
+      "month": "January",
+      "year": 1959
+    },
     "video": "_jgYEYERYFQ",
     "detail": "Three-time Oscar nominee Frank Darabont was born in a refugee camp in 1959 in Montbeliard, France"
   },
@@ -116,6 +171,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Director","Producer"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Andrew_Lincoln_%2842749683025%29_%28cropped%29.jpg/800px-Andrew_Lincoln_%2842749683025%29_%28cropped%29.jpg",
+    "birthday": {
+      "day": 14,
+      "month": "September",
+      "year": 1973
+    },
     "video": "WjXQ7nnwmNc",
     "detail": "Andrew Lincoln is a British Actor. Lincoln spent his early childhood in Hull, Yorkshire before his family relocated to Bath, Somerset when he was age 10. He was educated at Beechen Cliff School in Bath, and then the prestigious Royal Academy of Dramatic Art in London. His father is a civil engineer and his mother is a nurse"
   },
@@ -126,6 +186,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Producer","Additional Crew"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Norman_Reedus_by_Gage_Skidmore_4.jpg/800px-Norman_Reedus_by_Gage_Skidmore_4.jpg",
+    "birthday": {
+      "day": 6,
+      "month": "January",
+      "year": 1969
+    },
     "video": "MgNzfndBKWA",
     "detail": "Norman Reedus was born in Hollywood, Florida. He is of Italian, English, Scottish and Irish descent."
   },
@@ -136,6 +201,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Casting Director"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Melissa_McBride_2019.jpg",
+    "birthday": {
+      "day": 23,
+      "month": "May",
+      "year": 1965
+    },
     "video": "SlB8u9KGJXQ",
     "detail": "Melissa Suzanne McBride (born May 23, 1965) is an American actress and former casting director, best known for her role as Carol Peletier on the AMC series The Walking Dead. McBride has garnered critical acclaim and received multiple awards and nominations for her role on the show."
   },
@@ -146,6 +216,11 @@
     "Role": ["Director","Writers"],
     "type": ["Director","Writer","Producer"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTUwODA0NjUyNV5BMl5BanBnXkFtZTgwODk3Mzk5MzE@._V1_.jpg",
+    "birthday": {
+      "day": 29,
+      "month": "July",
+      "year": 1978
+    },
     "video": "JSDwd3SKGYw",
     "detail": "Paul King is known for Paddington (2014), Wonka (2023) and Paddington 2 (2017)."
   },
@@ -156,6 +231,11 @@
     "Role": ["Writers"],
     "type": ["Actor","Writer","Producer"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Simon_Farnaby_%28January_2018%29.png",
+    "birthday": {
+      "day": 2,
+      "month": "April",
+      "year": 1973
+    },
     "video": "5e0nB1mSd9Q",
     "detail": "Simon Farnaby was born on 2 April 1973 in Darlington, County Durham, England, UK. He is an Actor and writer, known for Paddington 2 (2017), Wonka (2023) and Your Highness (2011). He is married to Claire Keelan. They have one child."
   },
@@ -166,6 +246,11 @@
     "Role": ["Writers"],
     "type": ["Writer","Actor","Soundtrack"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Roald_Dahl.jpg/640px-Roald_Dahl.jpg",
+    "birthday": {
+      "day": 13,
+      "month": "September",
+      "year": 1916
+    },
     "video": "9nlhmJF5FNI",
     "detail": "Dahl was born in Wales in 1916. He served as a fighter pilot in the Royal Air Force during World War II. He made a forced landing in the Libyan Desert and was severely injured. As a result, he spent five months in a Royal Navy hospital in Alexandria. Dahl is noted for how he relates suspenseful and sometimes horrific events in a simple tone."
   },
@@ -176,6 +261,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Producer","Soundtrack"],
     "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/535891_v9_bc.jpg",
+    "birthday": {
+      "day": 27,
+      "month": "December",
+      "year": 1995
+    },
     "video": "JSDwd3SKGYw",
     "detail": "Timothée Hal Chalamet was born in Manhattan, to Nicole Flender, a real estate broker and dancer, and Marc Chalamet, a UNICEF editor. His mother, who is from New York, is Jewish, of Russian Jewish and Austrian Jewish descent. His father, who is from Nîmes, France, is of French and English ancestry. He is the brother of actress Pauline Chalamet, a nephew of director Rodman Flender, and a grandson of screenwriter Harold Flender."
   },
@@ -186,6 +276,11 @@
     "Role": ["Stars"],
     "type": ["Actor"],
     "image": "https://www.ajkagency.com/images/gustave-die/Gustave-Die-AJK-Dance-Agency-1.JPG",
+    "birthday": {
+      "day": null,
+      "month": null,
+      "year": null
+    },
     "video": "mKnS0mb2IF0",
     "detail": "Gustave Die is known for Wonka (2023) and Barbie (2023)."
   },
@@ -196,6 +291,11 @@
     "Role": ["Stars"],
     "type": ["Actor"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTUxNjU4NjQ3MV5BMl5BanBnXkFtZTgwNjYwMjEyNzE@._V1_.jpg",
+    "birthday": {
+      "day": 4,
+      "month": "May",
+      "year": 1966
+    },
     "video": "3LXkjJpwR3o",
     "detail": "Best known for Game of Thrones in which he plays the Wildling chieftain, Dim Dalba. A British stage, television and film actor."
   },
@@ -206,6 +306,11 @@
     "Role": ["Creators"],
     "type": ["Writer","Producer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BN2UyNGI4YjItMTY2Mi00NGMyLWIzNzktNDM5YmQ0MDZlMDFiXkEyXkFqcGdeQXVyMTMxMTIwMTE0._V1_.jpg",
+    "birthday": {
+      "day": 1,
+      "month": "March",
+      "year": 1971
+    },
     "video": "xKvGXp77Svk",
     "detail": "Brad Falchuk was born on 1 March 1971 in Newton, Massachusetts, USA. He is a writer and producer, known for Glee (2009), American Horror Story (2011) and Pose (2018). He has been married to Gwyneth Paltrow since 29 September 2018. He was previously married to Suzanne Bukinik."
   },
@@ -216,6 +321,11 @@
     "Role": ["Creators"],
     "type": ["Producer","Writer","Music Department"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ryan_Murphy_at_PaleyFest_2013.jpg",
+    "birthday": {
+      "day": 9,
+      "month": "November",
+      "year": 1965
+    },
     "video": "4pVSkbLcO7I",
     "detail": "Born November 9, 1965 in Indianapolis, Indiana, US as Ryan Patrick Murphy, he is an American writer, director, and producer"
   },
@@ -226,6 +336,11 @@
     "Role": ["Creators"],
     "type": ["Writer","Producer","Actress"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTc1NTk5ODY2N15BMl5BanBnXkFtZTcwODQ0Mzc3NA@@._V1_.jpg",
+    "birthday": {
+      "day": 20,
+      "month": "November",
+      "year": 1984
+    },
     "video": "skUILrCSwtw",
     "detail": "Halley Feiffer was born on 20 November 1984 in the USA. She is a writer and producer, known for The Squid and the Whale (2005), The Messenger (2009) and You Can Count on Me (2000)."
   },
@@ -236,6 +351,11 @@
     "Role": ["Stars"],
     "type": ["Music Artist","Actress","Comoser"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTg1NjQwMzU4MF5BMl5BanBnXkFtZTgwNTk5NjQ4NjE@._V1_.jpg",
+    "birthday": {
+      "day": 28,
+      "month": "March",
+      "year": 1986
+    },
     "video": "zNqWb_4UcGg",
     "detail": "Lady Gaga, born Stefani Joanne Angelina Germanotta, is an American songwriter, singer, actress, philanthropist, dancer and fashion designer.Gaga was born on March 28, 1986 in Manhattan, New York City, to Cynthia Louise (Bissett), a philanthropist and business executive, and Joseph Anthony Germanotta, Jr., an internet entrepreneur."
   },
@@ -246,6 +366,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Director","Producer"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/SDCC_2015_-_Kathy_Bates_%2819157137724%29_%28cropped%29.jpg",
+    "birthday": {
+      "day": 28,
+      "month": "June",
+      "year": 1948
+    },
     "video": "azaqjmTeE_U",
     "detail": "Multi-talented, multi-award-winning actress Kathleen (Doyle) Bates was born on June 28, 1948, and raised in Memphis, Tennessee. She is the youngest of three girls born to Bertye Kathleen (Talbot), a homemaker, and Langdon Doyle Bates, a mechanical engineer."
   },
@@ -256,6 +381,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer","Director"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Angela_Bassett_by_Gage_Skidmoe.jpg/800px-Angela_Bassett_by_Gage_Skidmoe.jpg",
+    "birthday": {
+      "day": 16,
+      "month": "August",
+      "year": 1958
+    },
     "video": "i9T2mkygTPw",
     "detail": "Captivating, gifted, and sensational, Angela Bassett's presence has been felt in theaters and on stages and television screens throughout the world. Angela Evelyn Bassett was born on August 16, 1958 in New York City, to Betty Jane (Gilbert), a social worker, and Daniel Benjamin Bassett, a preacher's son."
   },
@@ -266,6 +396,11 @@
     "Role": ["Creators"],
     "type": ["Writer","Producer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BMjEzMDY2NzI3MF5BMl5BanBnXkFtZTcwODY5MjI3NA@@._V1_.jpg",
+    "birthday": {
+      "day": 3,
+      "month": "January",
+      "year": 1973
+    },
     "video": "9rRACJPfo9c",
     "detail": "Dan Harmon was born on January 3, 1973 in Milwaukee, Wisconsin, USA. He is best known as the creator, writing, and producer for Community (2009) and Rick and Morty (2013). He also is known for writing and producing earlier works such as Computerman (2003), and Laser Fart (2004). He was previously married to Erin McGathy."
   },
@@ -276,6 +411,11 @@
     "Role": ["Creators"],
     "type": ["Actor","Writer","Producer"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Justin_Roiland_%2836434635662%29.jpg",
+    "birthday": {
+      "day": 21,
+      "month": "February",
+      "year": 1980
+    },
     "video": "rsrg_UiVMzY",
     "detail": "Mark Justin Roiland is an American voice actor, animator, writer, producer, and director. He is best known as the co-creator of Adult Swim's Rick and Morty and its subsequent franchise. He voices the show's title characters Rick Sanchez and Morty Smith."
   },
@@ -286,6 +426,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Writer","Soundtrack"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Chris_Parnell_by_Gage_Skidmore.jpg/1200px-Chris_Parnell_by_Gage_Skidmore.jpg",
+    "birthday": {
+      "day": 5,
+      "month": "February",
+      "year": 1967
+    },
     "video": "lzOLg2KuyHw",
     "detail": "Born and raised in Memphis, Tennessee, Chris Parnell enrolled at Germantown High School where he took drama and auditioned for every play. In 1985"
   },
@@ -296,6 +441,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTkxNjE0NzAxMF5BMl5BanBnXkFtZTcwNjQyMjQ4Mg@@._V1_FMjpg_UX1000_.jpg",
+    "birthday": {
+      "day": 9,
+      "month": "October",
+      "year": 1983
+    },
     "video": "VKUUWNT3lhU",
     "detail": "Spencer Grammer was born in Los Angeles, California, USA. She is an actress and producer, known for Rick and Morty (2013), Law & Order: Special Victims Unit (1999) and Random Tropical Paradise (2017). She was previously married to James Hesketh."
   },
@@ -306,6 +456,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer","Writer"],
     "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/81274_v9_bb.jpg",
+    "birthday": {
+      "day": 27,
+      "month": "August",
+      "year": 1976
+    },
     "video": "VKUUWNT3lhU",
     "detail": "Sarah Chalke was born on 27 August 1976 in Ottawa, Ontario, Canada. Her parents are Angie Chalke and Doug Chalke."
   },
@@ -316,6 +471,11 @@
     "Role": ["Creator"],
     "type": ["Writer","Producer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BMjE4ODQwODcxN15BMl5BanBnXkFtZTgwNjU0MzcxMDE@._V1_.jpg",
+    "birthday": {
+      "day": 5,
+      "month": "August",
+      "year": 1959
+    },
     "video": "fGdiXChH02o",
     "detail": "Steven Knight is a British screenwriter and film director. He is best known for screenplays he wrote for the films Dirty Pretty Things (2002) and Eastern Promises (2007), and also directed as well as written the film Locke (2013)."
   },
@@ -326,6 +486,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Producer","Writer"],
     "image": "https://m.media-amazon.com/images/M/MV5BMDUxY2M1NTQtNzcwNC00ZDljLTk4YjctYzJjZGNiYTc0YTE1XkEyXkFqcGdeQXVyMTY5MDA5MDc3._V1_.jpg",
+    "birthday": {
+      "day": 25,
+      "month": "May",
+      "year": 1976
+    },
     "video": "Xzv84ZdtlE0",
     "detail": "Striking Irish actor Cillian Murphy was born in Douglas, the oldest child of Brendan Murphy, who works for the Irish Department of Education, and a mother who is a teacher of French. He has three younger siblings. Murphy was educated at Presentation Brothers College, Cork."
   },
@@ -336,6 +501,11 @@
     "Role": ["Stars"],
     "type": ["Actor"],
     "image": "https://www.themoviedb.org/t/p/w500/nds5rTBZvJ4rEsP4N6OaoEgQDkW.jpg",
+    "birthday": {
+      "day": 19,
+      "month": "November",
+      "year": 1978
+    },
     "video": "QfFasuouxQI",
     "detail": "Paul Anderson is an English actor of film and stage. He is best known for portraying Arthur Shelby in the BBC series Peaky Blinders.Anderson began his acting career by appearing in plays written by friend Gregory Burke. His first leading role in a film was in The Firm (2009)."
   },
@@ -346,6 +516,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer"],
     "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/575344_v9_bb.jpg",
+    "birthday": {
+      "day": 21,
+      "month": "April",
+      "year": 1988
+    },
     "video": "DXUUqr3AFKs",
     "detail": "Sophie Rundle is an English actress. Born on 21 April 1988 to Fiona and Michael Rundle, she has two brothers James and Henry. She attended the Bournemouth School for Girls before going on to the Royal Academy of Dramatic Art, where she graduated in 2011 with a BA in Acting."
   },
@@ -356,6 +531,11 @@
     "Role": ["Director"],
     "type": ["Producer","Writer","Director"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/MKr25425_Steven_Spielberg_%28Berlinale_2023%29.jpg/1200px-MKr25425_Steven_Spielberg_%28Berlinale_2023%29.jpg",
+    "birthday": {
+      "day": 18,
+      "month": "December",
+      "year": 1946
+    },
     "video": "eQfMbSe7F2g",
     "detail": "One of the most influential personalities in the history of cinema, Steven Spielberg is Hollywood's best known director and one of the wealthiest filmmakers in the world. He has an extraordinary number of commercially successful and critically acclaimed credits to his name, either as a director, producer or writer since launching the summer blockbuster with Jaws (1975)"
   },
@@ -366,6 +546,11 @@
     "Role": ["Writer"],
     "type": ["Writer","Producer","Additional Crew"],
     "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/68200_v9_ba.jpg",
+    "birthday": {
+      "day": null,
+      "month": null,
+      "year": 1953
+    },
     "video": "Ui9th4nhvoY",
     "detail": "Robert Rodat was born in 1953 in New Hampshire, USA. He is a writer and producer, known for Saving Private Ryan (1998), Fly Away Home (1996) and Falling Skies (2011). He is married to Mollie Miller. They have three children."
   },
@@ -376,6 +561,11 @@
     "Role": ["Stars"],
     "type": ["Producer","Actor","Writer"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Tom_Hanks_TIFF_2019.jpg",
+    "birthday": {
+      "day": 9,
+      "month": "July",
+      "year": 1956
+    },
     "video": "1ZWLWxpBv5g",
     "detail": "Thomas Jeffrey Hanks was born in Concord, California, to Janet Marylyn (Frager), a hospital worker, and Amos Mefford Hanks, an itinerant cook. His mother's family, originally surnamed Fraga, was entirely Portuguese, while his father was of mostly English ancestry. Tom grew up in what he has called a fractured family."
   },
@@ -386,6 +576,11 @@
     "Role": ["Stars"],
     "type": ["Producer","Actor","Writer"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_FMjpg_UX1000_.jpg",
+    "birthday": {
+      "day": 8,
+      "month": "October",
+      "year": 1970
+    },
     "video": "7SW6kT0vO7w",
     "detail": "Matthew Paige Damon was born on October 8, 1970, in Boston, Massachusetts, to Kent Damon, a stockbroker, realtor and tax preparer, and Nancy Carlsson-Paige, an early childhood education professor at Lesley University. Matt has an older brother, Kyle, a sculptor. His father was of English and Scottish descent, and his mother is of Finnish and Swedish ancestry."
   },
@@ -396,6 +591,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Producer","Writer"],
     "image": "https://m.media-amazon.com/images/M/MV5BNjA3NjA0MzIwOV5BMl5BanBnXkFtZTYwNzk5NDE1._V1_.jpg",
+    "birthday": {
+      "day": 29,
+      "month": "November",
+      "year": 1961
+    },
     "video": "ZiW2dEPayh4",
     "detail": "Tom Sizemore rose in prominence throughout the 1990s, establishing himself as a memorable tough-guy actor, sought by the most respected directors in the business.Thomas Edward Sizemore, Jr. was born in Detroit, Michigan, to Judith (Schannault), an ombudsman staff member, and Thomas Edward Sizemore, Sr., a lawyer and professor. Sizemore grew up idolizing the tough-guy characters of the movies he watched."
   },
@@ -406,6 +606,11 @@
     "Role": ["Director","Writers"],
     "type": ["Writer","Producer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg",
+    "birthday": {
+      "day": 30,
+      "month": "July",
+      "year": 1970
+    },
     "video": "cqzr_M8YdPo",
     "detail": "Best known for his cerebral, often nonlinear, storytelling, acclaimed writer-director Christopher Nolan was born on July 30, 1970, in London, England. Over the course of 15 years of filmmaking, Nolan has gone from low-budget independent films to working on some of the biggest blockbusters ever made."
   },
@@ -416,6 +621,11 @@
     "Role": ["Writers"],
     "type": ["Writer","Producer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTEwNjY2MjgxMTZeQTJeQWpwZ15BbWU3MDY4NjY1Mjc@._V1_.jpg",
+    "birthday": {
+      "day": 6,
+      "month": "June",
+      "year": 1976
+    },
     "video": "6RP1Ci1brtA",
     "detail": "Attended Loyola Academy in Wilmette, Illinois, graduating in 1994.Graduated from Georgetown University in Washington, D.C. in 1999. Majored in English.Shortly after graduating from Georgetown University, Jonathan Nolan served as a production assistant on Memento (2000). Wrote the short story, Memento Mori, on which the film Memento (2000) is based.Was co-writer, with his brother Christopher Nolan."
   },
@@ -426,6 +636,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Producer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTg0MDc3ODUwOV5BMl5BanBnXkFtZTcwMTk2NjY4Nw@@._V1_FMjpg_UX1000_.jpg",
+    "birthday": {
+      "day": 4,
+      "month": "November",
+      "year": 1969
+    },
     "video": "yTHkWoBgrR0",
     "detail": "American actor and producer Matthew David McConaughey was born in Uvalde, Texas. His mother, Mary Kathleen (McCabe), is a substitute school teacher originally from New Jersey. His father, James Donald McConaughey, was a Mississippi-born gas station owner who ran an oil pipe supply business. He is of Irish, Scottish, German, English, and Swedish descent. Matthew grew up in Longview, Texas, where he graduated from the local High School (1988)."
   },
@@ -436,6 +651,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer","Soundtrack"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTRhNzQ3NGMtZmQ1Mi00ZTViLTk3OTgtOTk0YzE2YTgwMmFjXkEyXkFqcGdeQXVyNzg5MzIyOA@@._V1_.jpg",
+    "birthday": {
+      "day": 12,
+      "month": "November",
+      "year": 1982
+    },
     "video": "CP9POk-vJCY",
     "detail": "Anne Jacqueline Hathaway was born in Brooklyn, New York, to Kate McCauley Hathaway, an actress, and Gerald T. Hathaway, a lawyer, both originally from Philadelphia. She is of mostly Irish descent, along with English, German, and French. Her first major role came in the short-lived television series Get Real (1999). She gained widespread recognition for her roles in The Princess Diaries (2001) and its 2004 sequel as a young girl who discovers she is a member of royalty, opposite Julie Andrews and Heather Matarazzo."
   },
@@ -446,6 +666,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer","Soundtrack"],
     "image": "https://m.media-amazon.com/images/M/MV5BMTU1MDM5NjczOF5BMl5BanBnXkFtZTcwOTY2MDE4OA@@._V1_.jpg",
+    "birthday": {
+      "day": 24,
+      "month": "March",
+      "year": 1977
+    },
     "video": "Wc2dHVivP-0",
     "detail": "Jessica Michelle Chastain was born in Sacramento, California, and was raised in a middle-class household in a Northern California suburb. Her mother, Jerri Chastain, is a vegan chef whose family is originally from Kansas, and her stepfather is a fireman. She discovered dance at the age of nine and was in a dance troupe by age thirteen. She began performing in Shakespearean productions all over the Bay area."
   },
@@ -456,6 +681,11 @@
     "Role": ["Creators"],
     "type": ["Writer","Producer","Director"],
     "image": "https://images.mubicdn.net/images/cast_member/29824/cache-274165-1509522223/image-w856.jpg?size=800x",
+    "birthday": {
+      "day": 22,
+      "month": "August",
+      "year": 1967
+    },
     "video": "QMDHt5eZhv8",
     "detail": "Alfred Gough was born on 22 August 1967 in Leonardtown, Maryland, USA. He is a writer and producer, known for Smallville (2001), Wednesday (2022) and Spider-Man 2 (2004). He has been married to Beth Corets since 1 September 1996. They have three children."
   },
@@ -466,6 +696,11 @@
     "Role": ["Creators"],
     "type": ["Writer","Producer","Director"],
     "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/287649_v9_ba.jpg",
+    "birthday": {
+      "day": null,
+      "month": null,
+      "year": 1967
+    },
     "video": "QMDHt5eZhv8",
     "detail": "Miles Millar was born in 1970. He is known for Smallville (2001), Wednesday (2022) and Spider-Man 2 (2004)."
   },
@@ -476,6 +711,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer","Soundtrack"],
     "image": "https://m.media-amazon.com/images/M/MV5BNmQ1MDJhYmUtNTJhYS00Njk2LTgyMmEtYmNhM2JiZGMwMTc0XkEyXkFqcGdeQXVyMzQwODQxNTU@._V1_.jpg",
+    "birthday": {
+      "day": 27,
+      "month": "September",
+      "year": 2002
+    },
     "video": "xXvgT-AgLAo",
     "detail": "Jenna Marie Ortega was born on September 27, 2002 in Coachella Valley, California. She began acting at age 9 and has portrayed Harley, a creative-engineering prodigy navigating life as the middle child in a family of 7 children in Stuck in the Middle, a Disney Channel series told from Harley's perspective."
   },
@@ -486,6 +726,11 @@
     "Role": ["Stars"],
     "type": ["Actress"],
     "image": "https://m.media-amazon.com/images/M/MV5BZjc4Yjk4MzEtMDM4Ny00YTc1LTliZTYtNmEzZTEwNjIzZDNkXkEyXkFqcGdeQXVyMTAwODQyMDE1._V1_.jpg",
+    "birthday": {
+      "day": 2,
+      "month": "April",
+      "year": 2002
+    },
     "video": "SWh4c9EVqGM",
     "detail": "Emma Myers was born on 2 April 2002 in the United States. She is an actress, known for Wednesday (2022), A Good Girl's Guide to Murder and Family Switch (2023)."
   },
@@ -496,6 +741,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Writer","Director"],
     "image": "https://m.media-amazon.com/images/M/MV5BMGFmYWJmMjktZDNkYi00MTYzLWFhMjQtY2FkMmUzNTdlNTRhXkEyXkFqcGdeQXVyNDI5NzQ2Mzc@._V1_.jpg",
+    "birthday": {
+      "day": 18,
+      "month": "January",
+      "year": 1994
+    },
     "video": "aXb87G0dGYE",
     "detail": "Hunter Doohan is an American actor and writer. He grew up in Fort Smith, Arkansas, USA before moving to Los Angeles, California. He is best known for playing Tyler Galpin in the Netflix comedy/mystery series Wednesday (2022) and Adam Desiato in the Showtime drama series Your Honor (2020) starring Bryan Cranston."
   },
@@ -506,6 +756,11 @@
     "Role": ["Creator"],
     "type": ["Writer","Producer","Actor"],
     "image": "https://m.media-amazon.com/images/M/MV5BMjlhNTg1ZTctOWFmMC00NjQ0LWFmMTktODQ4NmYyZDhjNzQzXkEyXkFqcGdeQXVyMTMzMzk2OTU@._V1_.jpg",
+    "birthday": {
+      "day": 8,
+      "month": "April",
+      "year": 1971
+    },
     "video": "7_WGnRATY14",
     "detail": "Craig Mazin was born on 8 April 1971 in Brooklyn, New York, USA. He is a writer and producer, known for Chernobyl (2019), The Last of Us (2023) and Mythic Quest (2020)."
   },
@@ -516,6 +771,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Music Department","Soundtrack"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Jessie_Buckley_2019.jpg/640px-Jessie_Buckley_2019.jpg",
+    "birthday": {
+      "day": 28,
+      "month": "December",
+      "year": 1989
+    },
     "video": "vpxC10pIa2U",
     "detail": "Jessie Buckley is an Irish singer and actress, who came in second place in the BBC talent show-themed television series I'd Do Anything, and subsequently played Anne Egermann in the West End revival of Stephen Sondheim's A Little Night Music. Most recently, Buckley played Lyudmilla Ignatenko in the HBO drama miniseries, Chernobyl. She also appeared on three BBC television series, as Marya Bolkonskaya in BBC's adaptation of Leo Tolstoy's War and Peace, as Lorna Bow in Taboo and as Honor Martin in The Last Post."
   },
@@ -526,6 +786,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Director","Additional Crew"],
     "image": "https://m.media-amazon.com/images/M/MV5BODgyOTdjZjAtYmI2MS00ZjdhLTk0NzMtNGRhYjI4NTE3MjBhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    "birthday": {
+      "day": 24,
+      "month": "August",
+      "year": 1961
+    },
     "video": "aOc8Qj_jc9Y",
     "detail": "Jared Francis Harris was born in London, England. He is the son of Irish actor Richard Harris and Welsh actress Elizabeth Harris (Elizabeth Rees), and brother of Damian Harris and Jamie Harris. Despite his lineage, Jared showed little interest in becoming an actor, until he was cast in a college production while attending North Carolina's Duke University (USA), where he studied drama and literature, in the early 1980s."
   },
@@ -536,6 +801,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Producer","Writer"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Stellan_Skarsg%C3%A5rd_at_the_2017_Berlinalevds.jpg/640px-Stellan_Skarsg%C3%A5rd_at_the_2017_Berlinalevds.jpg",
+    "birthday": {
+      "day": 13,
+      "month": "June",
+      "year": 1951
+    },
     "video": "PjmsJcWPk7I",
     "detail": "Stellan Skarsgård was born in Gothenburg, Västra Götalands län, Sweden"
   },
@@ -546,6 +816,11 @@
     "Role": ["Creator","Writers"],
     "type": ["Producer","Director","Writer"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Todd_Phillips_%2829486703114%29.jpg",
+    "birthday": {
+      "day": 20,
+      "month": "December",
+      "year": 1970
+    },
     "video": "PVqsq80iBMI",
     "detail": "Todd Phillips is an American film director, producer, and screenwriter.Growing up on Long Island, New York, Todd Phillips fell in love with feature film teen comedies made in the 1980s, and claims they were his biggest influence in becoming a filmmaker."
   },
@@ -556,6 +831,11 @@
     "Role": ["Writers"],
     "type": ["Writer","Director","Producer"],
     "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/74184_v9_bb.jpg",
+    "birthday": {
+      "day": null,
+      "month": null,
+      "year": 1964
+    },
     "video": "tgLCQyufHfE",
     "detail": "Scott Silver is known for Joker (2019), The Fighter (2010) and Johns (1996)."
   },
@@ -566,6 +846,11 @@
     "Role": ["Writers"],
     "type": ["Writer","Additional Crew","Actor"],
     "image": "https://www.parkwestgallery.com/wp-content/uploads/2013/04/bob-kane-e1378481523297.jpg",
+    "birthday": {
+      "day": 24,
+      "month": "October",
+      "year": 1915
+    },
     "video": "s6ttqUweInc",
     "detail": "Bob Kane was an American comic book writer and artist of Jewish descent, most famous for co-creating Batman and several members of Batman's supporting cast. Kane was inducted into the comic book industry's Jack Kirby Hall of Fame in 1994 and into the Will Eisner Comic Book Hall of Fame in 1996."
   },
@@ -576,6 +861,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Producer","Director"],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Joaquin_Phoenix_in_2018.jpg/1200px-Joaquin_Phoenix_in_2018.jpg",
+    "birthday": {
+      "day": 28,
+      "month": "October",
+      "year": 1974
+    },
     "video": "tgLCQyufHfE",
     "detail": "Joaquin Phoenix was born Joaquin Rafael Bottom in San Juan, Puerto Rico, to Arlyn (Dunetz) and John Bottom, and is the middle child in a brood of five. His parents, from the continental United States, were then serving as Children of God missionaries."
   },
@@ -586,6 +876,11 @@
     "Role": ["Stars"],
     "type": ["Actor","Producer","Director"],
     "image": "https://cdn.britannica.com/00/213300-050-ADF31CD9/American-actor-Robert-De-Niro-2019.jpg",
+    "birthday": {
+      "day": 17,
+      "month": "August",
+      "year": 1943
+    },
     "video": "EP34Yoxs3FQ",
     "detail": "One of the greatest actors of all time, Robert De Niro was born on August 17, 1943 in Manhattan, New York City, to artists Virginia (Admiral) and Robert De Niro Sr. His paternal grandfather was of Italian descent, and his other ancestry is Irish, English, Dutch, German, and French. He was trained at the Stella Adler Conservatory and the American Workshop. De Niro first gained fame for his role in Bang the Drum Slowly (1973), but he gained his reputation as a volatile actor in Mean Streets (1973), which was his first film with director Martin Scorsese. He received an Academy Award for Best Supporting Actor for his role in The Godfather Part II (1974) and received Academy Award nominations for best actor in Taxi Driver (1976)."
   },
@@ -596,6 +891,11 @@
     "Role": ["Stars"],
     "type": ["Actress","Producer","Soundtrack"],
     "image": "https://media1.popsugar-assets.com/files/thumbor/E2quVnz1JVAjFpf03gQClrP9vPI=/0x0:2167x2584/2167x2584/filters:format_auto():quality(85):extract_cover()/2021/10/25/972/n/1922398/6f75434a61772d8a13d296.08771360_.jpg",
+    "birthday": {
+      "day": 1,
+      "month": "June",
+      "year": 1991
+    },
     "video": "TWjGSswQbbs",
     "detail": "Zazie Beetz (born c. 1991) is a German-American actress known for the role of Vanessa on Atlanta (2016), as well as for starring in Deadpool 2 (2018), Joker (2019), and Nine Days (2020).Born in Berlin to a German father and an African-American mother, Beetz was raised in New York speaking both German and English at home. Performing in community theaters and local stages since childhood, Zazie found her joy in grade school and grew up acting. She attended LaGuardia Arts High school, where she continued to engage her love for performing arts, but decided to not pursue a conservatory program afterward. Instead, she went to Skidmore College, where she received a bachelor's degree in French. Beetz currently resides in her hometown, New York."
   }

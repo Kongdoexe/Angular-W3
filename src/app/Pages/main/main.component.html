@@ -57,7 +57,7 @@
         <a (click)="sendParamsActor(lm.id , lm.video)" routerLink="#">
           <img src="{{ lm.image }}" class="rounded-image" />
         </a>
-        <span class="Actor-name">{{lm.name}}</span>
+        <span class="Actor-name">{{lm.name}} {{ ((currentYear - (lm.birthday.year ?? currentYear)) || 'N/A') }}</span>
       </div>
       <div class="right-section"></div>
       <a href="#"><span class="material-symbols-outlined arrow right-arrow" (click)="nextSlideActor()" style="margin-right: -65px;">
