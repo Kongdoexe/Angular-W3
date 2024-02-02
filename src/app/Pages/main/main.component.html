@@ -54,7 +54,7 @@
     </button>
     <div class="slider-container" id="sliderActor" #sliderActor>
 
-      <div *ngFor="let lm of Persons let first = first; let last = last" class="slide" [ngClass]="{'first-slide': first, 'last-slide': last}" class="slide">
+      <div *ngFor="let lm of Persons let first = first; let last = last" class="slide" [ngClass]="{'first-slide': first, 'last-slide': last}" class="slide" style="gap: 20px;">
         <a (click)="sendParamsActor(lm.id , lm.video)" routerLink="#">
           <img src="{{ lm.image }}" class="rounded-image" />
         </a>
