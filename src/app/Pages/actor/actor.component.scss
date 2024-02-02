@@ -141,7 +141,6 @@ a {
 
 .container-detail{
   margin-top: 5px;
-  width: 800px;
 
   span{
     display: block;
@@ -155,4 +154,13 @@ a {
     margin-top: 10px;
     color: #ffffff;
   }
+}
+
+.Born-Button{
+  margin-top: 2%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(226, 182, 22);
 }

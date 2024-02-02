@@ -67,9 +67,26 @@
       </div>
     </div>
 
-    <div class="container-detail">
-      <span>{{ Actor.detail }}</span>
-      <hr />
+    <div class="row container-detail">
+
+      <div class="col-8 ">
+        <span>{{ Actor.detail }}</span>
+        <hr />
+      </div>
+
+      <div class="col-4 " style="display: flex; flex-direction: column; justify-content: center;">
+        <div style="display: flex; flex-direction: row;">
+          <span style="margin-right: 10px; font-weight: bold;">Born</span>
+          <span>{{Actor.birthday.month}} {{Actor.birthday.day}}, {{Actor.birthday.year}}</span>
+        </div>
+
+
+        <button style="display: flex; align-items: center;" class="Born-Button">
+          <mat-icon class="mat-18" style="margin-left: 10px;">add</mat-icon>
+          <p style="margin-left: 10px;">Add to List</p>
+        </button>
+      </div>
+
     </div>
   </div>
 </div>

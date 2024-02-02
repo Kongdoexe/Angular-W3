@@ -23,6 +23,8 @@ export class ActorComponent implements OnInit{
   Actorid = '';
   Actor:any = '';
 
+  PersonData: any = '';
+
   DataMoviee: any = '';
 
   Videos: any = "+99";

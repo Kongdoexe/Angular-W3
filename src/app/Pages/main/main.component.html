@@ -8,23 +8,23 @@
     </div>
   </div>
   <div class="card-container">
-    <div class="slider-container">
-      <a href="#" *ngIf="currentIndex >= 3">
-        <span class="material-symbols-outlined arrow left-arrow" (click)="prevSlide()" style="margin-left: -35px;">
-          chevron_left
-        </span>
-      </a>
-      <div class="left-section"></div>
+    <button>
+      <span class="material-symbols-outlined arrow left-arrow" id="sliderContainer" (click)="prevSlide()" style="margin-left: 13%;">
+        chevron_left
+      </span>
+    </button>
+    <div class="slider-container" id="sliderContainer" #sliderContainer>
 
-      <div *ngFor="let lm of Movies.slice(0 + currentIndex, itemsPerSlide + currentIndex)" class="slide" style="background-color: #1a1a1a;">
-        <a (click)="sendParamsTitle(lm.title_id , lm.trailer)" routerLink="#">
-          <img src="{{ lm.image }}" style="width: 190px; height: 270px" />
+      <div *ngFor="let lm of Movies; let first = first; let last = last" class="slide" [ngClass]="{'first-slide': first, 'last-slide': last}" style="background-color: #1a1a1a;">
+        <a (click)="sendParamsTitle(lm.title_id, lm.trailer)" routerLink="#">
+          <img src="{{ lm.image }}" style="width: 190px; height: 280px" />
         </a>
+
         <div style="margin-left: 10px;">
           <span style="display: flex; margin-bottom: 5px;color: white;">
             <mat-icon style="margin-top: -2px; margin-right: 5px;">star</mat-icon>{{ lm.rating.toFixed(1) }}
           </span>
-          <!-- <br /> -->
+
           <span style="color: white;">{{ lm.title }}</span><br>
           <button routerLink="#" class="Button-Watch">Watch now<mat-icon>open_in_new</mat-icon></button>
           <div style="display: flex; flex-direction: row;">
@@ -33,36 +33,39 @@
           </div>
         </div>
       </div>
-      <div class="right-section"></div>
-      <a href="#"><span class="material-symbols-outlined arrow right-arrow" (click)="nextSlide()" style="margin-right: -65px;">
-        chevron_right
-      </span></a>
+
     </div>
+    <button href="#">
+      <span class="material-symbols-outlined arrow right-arrow" id="sliderContainer left-arrow" (click)="nextSlide()" style="margin-right: 12.5%;">
+        chevron_right
+      </span>
+    </button>
   </div>
 
   <div class="movie-container">
     <hr>
-    <button routerLink=""><span class="movie">Actor <mat-icon>arrow_forward_ios</mat-icon> </span></button>
+    <button routerLink=""><span class="movie">Actor <mat-icon>arrow_forward_ios</mat-icon></span></button>
   </div>
   <div class="card-container">
-    <div class="slider-container">
-      <a href="#" *ngIf="currentIndexActor >= 3">
-        <span class="material-symbols-outlined arrow left-arrow" (click)="prevSlideActor()" style="margin-left: -35px;">
-          chevron_left
-        </span>
-      </a>
-      <div class="left-section"></div>
+    <button>
+      <span class="material-symbols-outlined arrow left-arrow" (click)="prevSlideActor()" style="margin-left: 13%; margin-top: 28%;" id="sliderActor">
+        chevron_left
+      </span>
+    </button>
+    <div class="slider-container" id="sliderActor" #sliderActor>
 
-      <div *ngFor="let lm of Persons.slice(0 + currentIndexActor, 6 + currentIndexActor)" class="slide">
+      <div *ngFor="let lm of Persons let first = first; let last = last" class="slide" [ngClass]="{'first-slide': first, 'last-slide': last}" class="slide">
         <a (click)="sendParamsActor(lm.id , lm.video)" routerLink="#">
           <img src="{{ lm.image }}" class="rounded-image" />
         </a>
         <span class="Actor-name">{{lm.name}} {{ ((currentYear - (lm.birthday.year ?? currentYear)) || 'N/A') }}</span>
       </div>
-      <div class="right-section"></div>
-      <a href="#"><span class="material-symbols-outlined arrow right-arrow" (click)="nextSlideActor()" style="margin-right: -65px;">
-        chevron_right
-      </span></a>
+
     </div>
+    <button>
+      <span class="material-symbols-outlined arrow right-arrow" (click)="nextSlideActor()" style="margin-right: 12.5%; margin-top: 28%;" id="sliderActor">
+        chevron_right
+      </span>
+    </button>
   </div>
 </div>

@@ -46,10 +46,19 @@ hr {
 .slider-container {
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .slide {
   margin-left: 22px;
+}
+
+.first-slide {
+  margin-left: 10px;
+}
+
+.last-slide {
+  margin-right: 10px;
 }
 
 .arrow {
@@ -57,30 +66,18 @@ hr {
   font-size: 40px;
   opacity: 1;
   position: absolute;
-  top: 25%;
+  top: 35%;
   z-index: 1;
-}
-
-.arrow:hover{
-  color: #f5c518;
 }
 
 .left-arrow {
   border: 0.1rem solid white;
-  left: 2.5%;
-  margin-left: -12px;
+  left: 3%;
 }
 
 .right-arrow {
   border: 0.1rem solid white;
-  right: 3%;
-  margin-right: -18px;
-}
-
-.card-container {
-  margin-top: 5px;
-  display: flex;
-  flex-direction: row;
+  right: 3.5%;
 }
 
 .card-container span{
@@ -111,7 +108,7 @@ a img:hover{
 }
 
 .Button-Watch:hover{
-  background: linear-gradient(0deg, #cce8f4 2%, #faa4a4 222%);
+  background: #444;
 }
 
 .Button-Trailer{

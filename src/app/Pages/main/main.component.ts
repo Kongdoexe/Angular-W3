@@ -1,4 +1,3 @@
-import { Component } from '@angular/core';
 import MovieData from '../../../assets/Movie.json';
 import PersonData from '../../../assets/person.json';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -6,7 +5,7 @@ import { CommonModule, NgForOf  } from '@angular/common';
 import { MatIconModule } from '@angular/material/icon';
 import {  Router, RouterLink, RouterModule } from '@angular/router';
 import {  MatButtonModule } from '@angular/material/button';
-
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -32,36 +31,45 @@ export class MainComponent{
 
   currentYear: number = new Date().getFullYear();
 
+  @ViewChild('sliderContainer') sliderContainer!: ElementRef;
+  @ViewChild('sliderActor') slideActor!: ElementRef;
+
   constructor(private router: Router) {}
 
-  ngDoCheck() {}
-
   prevSlide() {
-    if (this.currentIndex >= 3){
-      this.currentIndex -= 3;
-    }
+    this.currentIndex = Math.max(0, this.currentIndex - 3);
+    this.scrollSliderContainer();
   }
 
   nextSlide() {
-    if (this.currentIndex + this.itemsPerSlide < this.Movies.length) {
-      this.currentIndex += 3;
-    } else {
-      this.currentIndex = 0;
-    }
+    this.currentIndex = Math.min(this.Movies.length - this.itemsPerSlide, this.currentIndex + 3);
+    this.scrollSliderContainer();
   }
 
   prevSlideActor(){
-    if (this.currentIndexActor >= 3){
-      this.currentIndexActor -= 3;
-    }
+    this.currentIndexActor = Math.max(0, this.currentIndexActor - 3);
+    this.scrollSlide();
   }
 
   nextSlideActor(){
-    if (this.currentIndexActor + this.itemsPerSlide < this.Persons.length){
-      this.currentIndexActor += 3;
-    } else {
-      this.currentIndexActor = 0;
-    }
+    this.currentIndexActor = Math.min(this.Persons.length - this.itemsPerSlide, this.currentIndexActor + 3);
+    this.scrollSlide();
+  }
+
+  scrollSliderContainer() {
+    const container = this.sliderContainer.nativeElement;
+    container.scrollTo({
+      left: 210 * this.currentIndex,
+      behavior: 'smooth'
+    });
+  }
+
+  scrollSlide(){
+    const container = this.slideActor.nativeElement;
+    container.scrollTo({
+      left: 210 * this.currentIndexActor,
+      behavior: 'smooth'
+    })
   }
 
   sendParamsTitle(id: any, trailer: any){
