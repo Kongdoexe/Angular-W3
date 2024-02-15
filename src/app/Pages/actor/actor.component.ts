@@ -42,8 +42,6 @@ export class ActorComponent implements OnInit{
     this.Actorid = this.activeatedRoute.snapshot.paramMap.get('id') || '';
     this.Actor = DataPerson.find((movie) => movie.id == this.Actorid);
 
-    this.DataMoviee = DataMovie.find((movie) => movie.title == this.Actor.Movie);
-
     this.video = this.Actor?.video || '';
   }
 
